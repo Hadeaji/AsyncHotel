@@ -12,6 +12,8 @@ namespace AsyncHotel.Data
         public DbSet<Hotel> Hotels { get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Amenity> Amenities { get; set; }
+        public DbSet<RoomAmenity> RoomAmenities { get; set; }
+        public DbSet<HotelRoom> HotelRoom { get; set; }
 
         public AsyncHotelDBContext(DbContextOptions options) : base(options)
         {
@@ -21,6 +23,10 @@ namespace AsyncHotel.Data
         {
             // This calls the base method, but does nothing
             // base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<RoomAmenity>().HasKey((roomAmenity) => new { roomAmenity.AmenityId, roomAmenity.RoomId });
+
+            modelBuilder.Entity<HotelRoom>().HasKey((hotelRoom) => new { hotelRoom.HotelId, hotelRoom.RoomId });
+
 
             modelBuilder.Entity<Hotel>().HasData(
               new Hotel { Id = 1, Name = "Lablas", StreetAddress = "Somewhere", City = "Nevada", State = "Nevada", Country = "Nevada", Phone ="911" }

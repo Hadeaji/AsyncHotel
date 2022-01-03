@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GPNmcEej+fMCtWmemLqQkx6TCy2vY5cv/Dhqk07t2c0PTvNxbGpZsFYFheEsVkClmrurS8BHyLQDux6DIQyNlw==",
+  "dgSpecHash": "G39ScPXCkRSMAD50QudoPJBnw4BR2cpFwOU0pHcXVenqCpfi3mbImRJDiLaFXKQnvOWzfxiqZD6iCD92UvZBqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\HADI\\source\\repos\\AsyncHotel\\AsyncHotel\\AsyncHotel.csproj",
   "expectedPackageFiles": [
@@ -127,7 +127,8 @@
     "C:\\Users\\HADI\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\HADI\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\HADI\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\HADI\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\HADI\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\HADI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }

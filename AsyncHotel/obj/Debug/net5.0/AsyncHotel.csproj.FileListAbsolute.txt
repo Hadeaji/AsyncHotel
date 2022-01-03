@@ -46,7 +46,6 @@ C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\AsyncHotel.Ass
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\AsyncHotel.csproj.CoreCompileInputs.cache
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\AsyncHotel.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\staticwebassets\AsyncHotel.StaticWebAssets.Manifest.cache
-C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\staticwebassets\AsyncHotel.StaticWebAssets.xml
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\scopedcss\bundle\AsyncHotel.styles.css
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\AsyncHotel.RazorTargetAssemblyInfo.cache
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\AsyncHotel.dll
