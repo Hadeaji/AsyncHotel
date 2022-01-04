@@ -30,13 +30,13 @@ namespace AsyncHotel.Models.Services
 
         public async Task<Amenity> GetAmenity(int id)
         {
-            var amenity = await _context.Amenities.FindAsync(id);
+            var amenity = await _context.Amenities.Include(x => x.Rooms).ThenInclude(x => x.Room).FirstOrDefaultAsync( x => x.Id == id);
             return amenity;
         }
 
         public async Task<List<Amenity>> GetAmenities()
         {
-            var list = await _context.Amenities.ToListAsync();
+            var list = await _context.Amenities.Include(x => x.Rooms).ThenInclude(x => x.Room).ToListAsync();
             return list;
         }
 

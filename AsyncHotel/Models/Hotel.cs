@@ -17,5 +17,6 @@ namespace AsyncHotel.Models
         public string Country { get; set; }
         [Required]
         public string Phone { get; set; }
+        public List<HotelRoom> HotelRooms { get; set; }
     }
 }

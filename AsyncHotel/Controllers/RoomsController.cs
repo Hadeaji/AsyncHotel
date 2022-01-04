@@ -65,9 +65,23 @@ namespace AsyncHotel.Controllers
 
             await _room.Delete(id);
 
-            return NoContent();
+            return Ok();
         }
 
+        [HttpPost]
+        [Route("{roomId}/Amenity/{amenityId}")]
+        public async Task<ActionResult<Room>> AddAmenityToRoom(int roomId, int amenityId)
+        {
+            var roomAmenity = await _room.AddAmenity(roomId, amenityId);
+            return Ok(roomAmenity);
+        }
 
+        [HttpDelete]
+        [Route("{roomId}/Amenity/{amenityId}")]
+        public async Task<ActionResult> RemoveAmentityFromRoom(int roomId, int amenityId)
+        {
+            await _room.RemoveAmenity(roomId, amenityId);
+            return Ok();
+        }
     }
 }
