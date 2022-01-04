@@ -28,7 +28,7 @@ namespace AsyncHotel.Models.Services
             };
             _context.Entry(newHotelRoom).State = EntityState.Added;
             await _context.SaveChangesAsync();
-            return hotelRoom;
+            return newHotelRoom;
 
             //_context.Entry(hotelRoom).State = EntityState.Added;
             //await _context.SaveChangesAsync();

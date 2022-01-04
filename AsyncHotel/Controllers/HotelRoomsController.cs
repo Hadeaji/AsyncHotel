@@ -59,7 +59,7 @@ namespace AsyncHotel.Controllers
         public async Task<ActionResult<HotelRoom>> PostHotelRoom([FromRoute] int hotelId, HotelRoom hotelRoom)
         {
             var newHotelRoom = await _hotelRoom.Create(hotelId, hotelRoom);
-            return CreatedAtAction("GetHotelRoom", new { hotelId = hotelRoom.HotelId, roomNumber = hotelRoom.RoomId }, hotelRoom);
+            return CreatedAtAction("GetHotelRoom", new { hotelId = hotelId, roomNumber = hotelRoom.RoomId }, newHotelRoom);
  
         }
 
