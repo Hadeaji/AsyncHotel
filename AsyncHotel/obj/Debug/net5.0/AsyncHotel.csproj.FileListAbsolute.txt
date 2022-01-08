@@ -155,3 +155,8 @@ C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\Razor\Views\Am
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\AsyncHotel.MvcApplicationPartsAssemblyInfo.cs
