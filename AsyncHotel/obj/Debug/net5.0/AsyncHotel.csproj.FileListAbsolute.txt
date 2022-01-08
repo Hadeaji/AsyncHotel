@@ -160,3 +160,8 @@ C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Swashbuckle.As
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\obj\Debug\net5.0\AsyncHotel.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\HADI\source\repos\AsyncHotel\AsyncHotel\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll

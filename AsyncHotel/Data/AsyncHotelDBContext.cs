@@ -1,4 +1,5 @@
 ﻿using AsyncHotel.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AsyncHotel.Data
 {
-    public class AsyncHotelDBContext : DbContext
+    public class AsyncHotelDBContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Hotel> Hotels { get; set; }
         public DbSet<Room> Rooms { get; set; }
@@ -21,8 +22,8 @@ namespace AsyncHotel.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // This calls the base method, but does nothing
-            // base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<RoomAmenity>().HasKey((roomAmenity) => new { roomAmenity.AmenityId, roomAmenity.RoomId });
 
             modelBuilder.Entity<HotelRoom>().HasKey((hotelRoom) => new { hotelRoom.HotelId, hotelRoom.RoomId });
